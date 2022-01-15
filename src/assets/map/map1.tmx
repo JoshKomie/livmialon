@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="9" tileheight="9" infinite="0" nextlayerid="3" nextobjectid="1">
- <editorsettings>
-  <export target="map1.json" format="json"/>
- </editorsettings>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="9" tileheight="9" infinite="0" nextobjectid="1">
  <tileset firstgid="1" name="tileset" tilewidth="9" tileheight="9" tilecount="100" columns="10">
   <image source="../img/tileset.png" width="96" height="96"/>
  </tileset>
- <layer id="1" name="Ground" width="48" height="48">
+ <layer name="Ground" width="48" height="48">
   <data encoding="base64" compression="zlib">
-   eJzt1d0KgCAMQOGZCF35/o9bQUGEgg5hW5yLD2+Pw58kIglYqDRYN2n782l30DTbn38y/4j9731YN9A/pn5WD+i36559gzz1X//V1vDso3Z46S+d/nyz7tP2R5r/7B3w1K8Rud/b+dHOnn76AQAAAAAAAKxzAFxMC5E=
+   eJzt1csKgCAQQFFNhDb5/59rQkGELmYSnIm7OLi9Dj5iCCECE+WO1U3a/nTaDTRJ+9NP5u+x/7mPth4GWr70eyXpL6/VAvrXdUvfIEv97b/aOu59lAEr/XnQny6r+7T9nuYvvQOW+jU891s7P9rZ008/AAAAAAAAgHkqy6sLnQ==
   </data>
  </layer>
- <layer id="2" name="Walls" width="48" height="48">
+ <layer name="Walls" width="48" height="48">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKwCAQRUEP4P3Pa5VGcJMq+mUGFtunrK1xkl5MglWn/n/o32v+r2n/99GnM43+Par9T7hL1Zhwjy9t6f0nu/39E/b/bQAAAAAA4HYDm1cClQ==
+   eJzt1UEKgCAURVEXYPvfbjRoImaN0ifnwMfpVRRLYSV1MAmeOvX/Q/9c7Xu91qPk9N9qs6bRP0fv/if9YaPGhH18aUvvX9nu559w/98GAAAAAAB2dwK58wKW
   </data>
  </layer>
 </map>
