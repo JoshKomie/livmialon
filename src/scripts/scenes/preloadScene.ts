@@ -5,6 +5,7 @@ export default class PreloadScene extends Phaser.Scene {
 
   preload() {
     this.load.image("tileset", "assets/img/tileset.png");
+    this.load.image("wizard", "assets/img/wizard.png");
     this.load.tilemapTiledJSON("tilemap", "assets/map/map1.json");
   }
 
