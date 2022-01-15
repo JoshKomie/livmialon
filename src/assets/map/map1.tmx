@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="9" tileheight="9" infinite="0" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="55" height="55" tilewidth="9" tileheight="9" infinite="0" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" name="tileset" tilewidth="9" tileheight="9" tilecount="100" columns="10">
   <image source="../img/tileset.png" width="96" height="96"/>
  </tileset>
- <layer name="Ground" width="48" height="48">
+ <layer id="1" name="Ground" width="55" height="55">
   <data encoding="base64" compression="zlib">
-   eJzt1csKgCAQQFFNhDb5/59rQkGELmYSnIm7OLi9Dj5iCCECE+WO1U3a/nTaDTRJ+9NP5u+x/7mPth4GWr70eyXpL6/VAvrXdUvfIEv97b/aOu59lAEr/XnQny6r+7T9nuYvvQOW+jU891s7P9rZ008/AAAAAAAAgHkqy6sLnQ==
+   eJzt1dsKgzAQANFoEPqi//+5rdCCSGypxCQTZ2HIaw7rZQghDOC+Te27actnmxLVNlxhi68eDRhy2mLof2+92bbG9ZwbMFxla7kStmV3atOW05b6Tv5yUmzrv3pM9DEuBxFs04Etvit591K2Xvb27ztHsZ2pVxvpmTy7M23aWrHVTBszbcy0MdPGTBszbcy0MdPGTBszbcy0MdPG7K42x3Ec577zBMDDC50=
   </data>
  </layer>
- <layer name="Walls" width="48" height="48">
+ <layer id="2" name="Walls" width="55" height="55">
   <data encoding="base64" compression="zlib">
-   eJzt1UEKgCAURVEXYPvfbjRoImaN0ifnwMfpVRRLYSV1MAmeOvX/Q/9c7Xu91qPk9N9qs6bRP0fv/if9YaPGhH18aUvvX9nu559w/98GAAAAAAB2dwK58wKW
+   eJztWduKxDAIzWMfpv3/z9lPW8oiOOLlaEzpQg6ETtJoPDFq2xlj4wl8kq1Tf8YGVK+cc/y1n/t6BnZmYcl82DXS69lNOIw5mh5tP1ZxO4w5BMRubUza7sms4obqQc6pt85buVXWesJvco2zoLPit8w5ntljS0ekk2IRkZNx+QZuSC6P5GgPOD8kF67k1gWLX7R2d7x5MTMDz3/8KmWse8h63r1ujho/74yu4obOsWISiVVEL2qnJv9GVGuR1DE7B/UT6lOeW1dyQ86R97yJyEYxj+ixZLviw7OtOmd1bUJR3Zv/4rfLsM3qazZo86vcKF6kXVEsaKhys9CVS6RdFZ0at0P0ozWs3JlFNb9buFjz5LOx+MbandXfHW/evdl6MBtfXbmE+kjOQs/YbHx11wBvDvUPpUU5INoz/ruDm4XIf/I5y6oX0tdDmafx1+SzqOQwzs16l5a2RWPcFq3/VJ60/HaO7/cSmptpUm7WTl6PuK2ejBZv3vf8rE3ERb6bZ/WQbZcYj9aeaZHuMeZ4aRwuY7wT3HY5bvGK/pPw1kHHO+DVhxuav2Zyycpz5q3J175h8ZrhZvlcezew3hey+yD7Hq8VNUDjkZnv9XlejfzVxU2rXx4u5Xd01b6br6hvyJjnvwo3Wgep25ZNETLc5PdC61uENoacbar/qE0RqvmwI6/KRs9sGueVNekJdNWYjY2NjY2NjY2NjY1v/AIymB+h
+  </data>
+ </layer>
+ <layer id="3" name="Enemies " width="55" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztzwcNAAAIwDD84N8fJkg4aRVsEQB75HRAs28/AAAAAAAAAAAAANcVZEYAVw==
   </data>
  </layer>
 </map>
