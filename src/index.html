@@ -25,6 +25,8 @@
     <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preload" as="font" href="assets/EquipmentPro.ttf" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" as="font" href="assets/m5x7.ttf" type="font/ttf" crossorigin="anonymous" />
 
     <title><%= htmlWebpackPlugin.options.gameName %></title>
     <style>
@@ -34,9 +36,18 @@
         margin: 0;
         background-color: #000000;
       }
+      @font-face {
+        font-family: EquipmentPro;
+        src: url('./assets/EquipmentPro.ttf');
+      }
+      @font-face {
+        font-family: "m5x7";
+        src: url('./assets/m5x7.ttf');
+      }
     </style>
 
     <noscript>Please enable javascript to continue using this application.</noscript>
+    <!-- <img src="./assets/img/tileset"></img> -->
 
     <!-- installs the serviceWorker -->
     <!-- <script>
